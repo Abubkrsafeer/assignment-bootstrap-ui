@@ -43,7 +43,7 @@
     min-height: var(--min-height-sec);
 }
 .secton-banner-main{
-    background-image: url(./assets/banner-bg.png);
+    background-image: url(./banner-bg.png);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     background-color: transparent;
     border:1px solid var(--primary-headings-color2);
     border-radius: 4px;
-    background-image: url(/assets/button-bg.png);
+    background-image: url(./button-bg.png);
     background-position: center bottom;
     padding: 0.5rem 2rem;
     background-repeat: no-repeat;
