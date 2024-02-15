@@ -34,6 +34,11 @@
     font-weight: 700;
     font-style: normal;
   }
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
 /* fonts  */
 
 .color_text{
@@ -52,9 +57,11 @@
     background-color: transparent;
     border:1px solid var(--primary-headings-color2);
     border-radius: 4px;
-    
     background-image: url(./button-bg.png);
     background-position: center bottom;
     padding: 0.5rem 2rem;
     background-repeat: no-repeat;
+}
+.heading-secondary{
+    color: var(--primary-headings-color);
 }
