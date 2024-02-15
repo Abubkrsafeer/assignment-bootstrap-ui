@@ -40,7 +40,9 @@
     font-style: italic;
   }
 /* fonts  */
-
+.bg-blue-sec{
+  background-color: var(--primary-headings-color);
+}
 .color_text{
     color: var(--primary-headings-color2);
 }
