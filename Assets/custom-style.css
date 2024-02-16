@@ -12,6 +12,9 @@
     color: #fff;
     font-family: poppins;
 }
+.py-6{
+padding-block: 5rem;
+}
 /* fonts  */
   .poppins-regular {
     font-family: "Poppins", sans-serif;
