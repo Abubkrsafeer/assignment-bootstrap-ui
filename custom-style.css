@@ -1,9 +1,11 @@
 :root{
     --min-height-sec:600px;
+    --min-height-sec-sm:250px;
     --primary-headings-color:#0F2B4C;
     --primary-headings-color2:#FAB642;
     --primary-text-color1:#0F2B4C;
     --primary-light-color:#fff;
+    --primary-gray:#FAFAFA;
 }
 *{
     margin: 0;padding: 0;box-sizing: border-box;
@@ -43,11 +45,17 @@
 .bg-blue-sec{
   background-color: var(--primary-headings-color);
 }
+.bg-grey-sec{
+  background-color: var(--primary-gray);
+}
 .color_text{
     color: var(--primary-headings-color2);
 }
 .min-height-sec{
     min-height: var(--min-height-sec);
+}
+.min-height-sec-sm{
+    min-height: var(--min-height-sec-sm);
 }
 .secton-banner-main{
     background-image: url(./banner-bg.png);
@@ -66,4 +74,14 @@
 }
 .heading-secondary{
     color: var(--primary-headings-color);
+}
+.step-btn{
+  background-color: #0E2D5110;
+}
+.step-btn-active{
+  background-image: linear-gradient(#FED58F 100%, #F6AE31 100%);
+}
+.step-title{
+  font-size: clamp(10px,1.5vw,24px);
+  width: clamp(80px,15vw,180px);
 }
