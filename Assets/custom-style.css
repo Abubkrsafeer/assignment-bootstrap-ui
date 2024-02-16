@@ -75,7 +75,7 @@ padding-block: 5rem;
     padding: 0.5rem 2rem;
     background-repeat: no-repeat;
 }
-.heading-secondary{
+.text-color-secondary{
     color: var(--primary-headings-color);
 }
 .step-btn{
