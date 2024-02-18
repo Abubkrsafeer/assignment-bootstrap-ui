@@ -104,6 +104,9 @@ padding-block: 5rem;
   font-size: clamp(10px,1.5vw,24px);
   width: clamp(80px,15vw,210px);
 }
+.border-lighter{
+  border: 1px solid #ffffff20;
+}
 @media screen and (max-width:600px) {
   .py-6{
     padding-block: 3rem;
