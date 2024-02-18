@@ -45,13 +45,13 @@ padding-block: 5rem;
     font-style: italic;
   }
   .fs-56{
-    font-size: clamp(32px,3.5vw,56px);
+    font-size: clamp(28px,3.5vw,56px);
   }
   .fs-32{
-    font-size: clamp(24px,2vw,32px);
+    font-size: clamp(16px,2vw,32px);
   }
   .fs-24{
-    font-size: clamp(16px,1.5vw,24px);
+    font-size: clamp(14px,1.5vw,24px);
   }
   .fs-20{
     font-size: clamp(14px,1.2vw,20px);
@@ -122,6 +122,9 @@ padding-block: 5rem;
     }
 }
 @media screen and (max-width:600px) {
+  .min-height-sec-sm{
+    min-height: calc(var(--min-height-sec-sm)/1.5);
+}
   .py-6{
     padding-block: 3rem;
   }
